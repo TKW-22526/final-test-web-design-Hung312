@@ -4,7 +4,7 @@ function createProductCard(product) {
         <div class="col-md-4 col-lg-3 col-sm-6">
             <div class="card h-100 shadow-sm">
                 <div class="card-body text-center d-flex flex-column">
-                    <img src="../assets/images/${product.id}.jpg" alt="${product.name}" class="card-img-top mb-3" style="height: 200px; object-fit: contain;">
+                    <img src="assets/images/${product.id}.jpg" alt="${product.name}" class="card-img-top mb-3" style="height: 200px; object-fit: contain;">
                     <h5 class="card-title fw-bold">${product.name}</h5>
                     <div class="mb-auto">
                         <span class="badge bg-secondary mb-2">${product.category}</span>
