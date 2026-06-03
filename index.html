@@ -21,7 +21,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link" href="#phu-kien">Phụ kiện máy tính</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#component">Phụ kiện máy tính</a></li>
                     <li class="nav-item"><a class="nav-link" href="#gear">Gaming Gear</a></li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
@@ -33,14 +33,87 @@
     </nav>
 
     <div class="container py-5">
-        
-        <section id="phu-kien" class="mb-5 pt-4">
+        <div id="productContainer" class="product-grid"></div>
+<!-- Section Phụ kiện máy tính -->
+        <section id="component" class="mb-5 pt-4">
             <h2 class="section-title fw-bold text-uppercase">Phụ kiện máy tính (PC Components)</h2>
+            <div class="control-panel" style="margin-bottom: 20px; display: flex; gap: 15px; wrap: nowrap; align-items: center;">
+            <input type="text" id="search-components" oninput="renderComponents()" placeholder="Nhập tên sản phẩm...">
+                <select id="category-components" onchange="renderComponents()">
+                    <option value="all">-- Tất cả danh mục --</option>
+                    <option value="cpu">CPU (Vi xử lý)</option>
+                    <option value="gpu">GPU (Card đồ họa)</option>
+                    <option value="ram">RAM (Bộ nhớ)</option>
+                    <option value="ssd">SSD (Ổ cứng)</option>
+                    <option value="motherboard">Motherboard</option>
+                    <option value="psu">PSU (Nguồn điện)</option>
+                    <option value="cpu-cooler">CPU Cooler</option>
+                    <option value="case">Vỏ máy tính</option>
+                </select>
+
+                <select id="brand-components" onchange="renderComponents()">
+                    <option value="all">-- Tất cả thương hiệu --</option>
+                    <option value="Intel">Intel</option>
+                    <option value="AMD">AMD</option>
+                    <option value="Gigabyte">Gigabyte(Geforge)
+                    </option>
+                    <option value="Sapphire">Sapphire(Radeon)</option>
+                    <option value="ASUS">ASUS</option>
+                    <option value="Corsair">Corsair</option>
+                    <option value="G.Skill">G.Skill</option>
+                    <option value="MSI">MSI</option>
+                    <option value="Western Digital">WD</option>
+                    <option value="Lian Li">Lian Li</option>
+                    <option value="Noctua">Noctua</option>
+                </select>
+
+                <select id="price-components" onchange="renderComponents()">
+                    <option value="default">-- Sắp xếp theo giá --</option>
+                    <option value="asc">Giá: Thấp đến Cao</option>
+                    <option value="desc">Giá: Cao đến Thấp</option>
+                </select>
+
+                <button onclick="resetComponentsFilters()" style="background-color: #1337db; color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; font-weight: bold;">
+                    Xóa hiển thị
+                </button>
+            </div>
+
             <div class="row g-4" id="components-list"></div>
         </section>
-
+<!-- Section Phụ kiện máy tính -->
         <section id="gear" class="mb-5 pt-4">
             <h2 class="section-title fw-bold text-uppercase">Gaming Gear</h2>
+            <div class="control-panel" style="margin-bottom: 20px; display: flex; gap: 15px; wrap: nowrap; align-items: center;">
+            <input type="text" id="search-gear" oninput="renderGears()" placeholder="Nhập tên sản phẩm để tìm nhanh...">
+                <select id="category-gear" onchange="renderGears()">
+                    <option value="all">-- Tất cả danh mục --</option>
+                    <option value="gaming-mice">Gaming Mouse</option>
+                    <option value="mechanical-keyboards">Gaming Keyboards(Bàn phím)</option>
+                    <option value="gaming-headsets">Gaming Headsets(Tai nghe)</option>
+                    <option value="monitors">Monitors(Màn hình)</option>
+                </select>
+
+                <select id="brand-gear" onchange="renderGears()">
+                    <option value="all">-- Tất cả thương hiệu --</option>
+                    <option value="Logitech">Logitech</option>
+                    <option value="Razer">Razer</option>
+                    <option value="SteelSeries">SteelSeries</option>
+                    <option value="Wooting">Wooting</option>
+                    <option value="ASUS">ASUS</option>
+                    <option value="HyperX">HyperX</option>
+                    <option value="BenQ">BenQ</option>
+                </select>
+
+                <select id="price-gear" onchange="renderGears()">
+                    <option value="default">-- Sắp xếp theo giá --</option>
+                    <option value="asc">Giá: Thấp đến Cao</option>
+                    <option value="desc">Giá: Cao đến Thấp</option>
+                </select>
+
+                <button onclick="resetGearsFilters()" style="background-color: #1337db; color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; font-weight: bold;">
+                    Xóa hiển thị
+                </button>
+            </div>
             <div class="row g-4" id="gear-list"></div>
         </section>
 
