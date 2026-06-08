@@ -3,6 +3,7 @@
 Đây là thư mục dự án kết thúc môn của sinh viên. Dự án được tổ chức theo cấu trúc rõ ràng nhằm phục vụ quá trình phát triển website, quản lý mã nguồn và nộp sản phẩm cuối kỳ.
 
 ## 1. Cấu trúc thư mục dự án
+```text
 final-test-web-design-Hung312/
     ├── .git/
     ├── assets/
@@ -23,7 +24,7 @@ final-test-web-design-Hung312/
         └──script.js
     ├── index.html
     └── README.md
-
+```
 
 ## 2. Mô tả các thư mục và tập tin
 
