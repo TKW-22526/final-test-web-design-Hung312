@@ -3,23 +3,27 @@
 Đây là thư mục dự án kết thúc môn của sinh viên. Dự án được tổ chức theo cấu trúc rõ ràng nhằm phục vụ quá trình phát triển website, quản lý mã nguồn và nộp sản phẩm cuối kỳ.
 
 ## 1. Cấu trúc thư mục dự án
+final-test-web-design-Hung312/
+    ├── .git/
+    ├── assets/
+        ├──images/
+        │    ├──1.jpg
+        │    ├──...
+        │    └──24.jpg
+        └── thesis/
+    │       └── template_thesis.dotx
+    ├── css/
+    ├── html/
+        ├──chi-tiet.html
+        ├──gioi-thieu.html
+        ├──lien-he.html
+        └──san-pham.html
+    ├── js/
+        ├──data.js
+        └──script.js
+    ├── index.html
+    └── README.md
 
-```text
-.
-├── .git/
-├── assets/
-│   └──images/
-│       └──1.jpg
-│       └──...
-│       └──24.jpg
-│   └── thesis/
-│       └── template_thesis.dotx
-├── css/
-├── html/
-├── js/
-├── index.html
-└── README.md
-```
 
 ## 2. Mô tả các thư mục và tập tin
 
