@@ -10,7 +10,7 @@ function createProductCard(product) {
                         <span class="badge bg-secondary mb-2">${product.item}</span>
                         <p class="card-text text-danger fw-bold fs-5">${product.price}</p>
                     </div>
-                    <a href="html/chi-tiet.html?id=${product.id}" class="btn btn-outline-primary mt-3 w-100">Xem chi tiết</a>
+                    <a href="chi-tiet.html?id=${product.id}" class="btn btn-outline-primary mt-3 w-100">Xem chi tiết</a>
                 </div>
             </div>
         </div>
@@ -140,7 +140,7 @@ function renderProductDetail() {
                     <h3 class="text-danger fw-bold my-3">${product.price}</h3>
                     <p class="fs-5">${product.desc.split("|").join("<br>")}</p>
                     <div class="mt-4">
-                        <a href="../index.html" class="btn btn-outline-secondary btn-lg me-2">Quay lại</a>
+                        <a href="san-pham.html" class="btn btn-outline-secondary btn-lg me-2">Quay lại</a>
                     </div>
                 </div>
             </div>
