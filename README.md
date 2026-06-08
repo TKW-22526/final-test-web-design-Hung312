@@ -11,6 +11,8 @@ final-test-web-design-Hung312/
         │    ├──1.jpg
         │    ├──...
         │    └──24.jpg
+        ├──background.jpg
+        ├──logo.jpg
         └── thesis/
     │       └── template_thesis.dotx
     ├── css/
