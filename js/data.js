@@ -1,4 +1,4 @@
-// data.js
+
 const products = [
     // ==========================================
     // PHÂN HỆ: PHỤ KIỆN MÁY TÍNH (PC COMPONENTS)
@@ -8,7 +8,7 @@ const products = [
     { 
         id: 1, 
         name: "Intel Core i9-14900K", 
-        img: "assets/images/1.jpg",
+        img: "../assets/images/1.jpg",
         item: "CPU",
 
         category: "cpu", 
@@ -21,7 +21,7 @@ const products = [
     { 
         id: 2, 
         name: "AMD Ryzen 7 7800X3D", 
-        img: "assets/images/2.jpg",
+        img: "../assets/images/2.jpg",
         item: "CPU",
 
         category: "cpu", 
@@ -36,7 +36,7 @@ const products = [
     { 
         id: 3, 
         name: "NVIDIA GeForce RTX 4080 Super", 
-        img: "assets/images/3.jpg",
+        img: "../assets/images/3.jpg",
         item: "GPU",
 
         category: "gpu", 
@@ -49,7 +49,7 @@ const products = [
     { 
         id: 4, 
         name: "AMD Radeon RX 7900 XTX", 
-        img: "assets/images/4.jpg",
+        img: "../assets/images/4.jpg",
         item: "GPU",
 
         category: "gpu", 
@@ -64,7 +64,7 @@ const products = [
     { 
         id: 5, 
         name: "Corsair Vengeance RGB 32GB DDR5", 
-        img: "assets/images/5.jpg",
+        img: "../assets/images/5.jpg",
         item: "RAM",
 
         category: "ram", 
@@ -77,7 +77,7 @@ const products = [
     { 
         id: 6, 
         name: "G.Skill Trident Z5 RGB 32GB DDR5", 
-        img: "assets/images/6.jpg",
+        img: "../assets/images/6.jpg",
         item: "RAM",
 
         category: "ram", 
@@ -92,7 +92,7 @@ const products = [
     { 
         id: 7, 
         name: "Corsair RM850x Shift 850W", 
-        img: "assets/images/7.jpg",
+        img: "../assets/images/7.jpg",
         item: "PSU",
 
         category: "psu", 
@@ -105,7 +105,7 @@ const products = [
     { 
         id: 8, 
         name: "ASUS ROG Thor 1000W Platinum II", 
-        img: "assets/images/8.jpg",
+        img: "../assets/images/8.jpg",
         item: "PSU",
 
         category: "psu", 
@@ -120,7 +120,7 @@ const products = [
     { 
         id: 9, 
         name: "ASUS ROG Strix Z790-E Gaming WiFi", 
-        img: "assets/images/9.jpg",
+        img: "../assets/images/9.jpg",
         item: "Motherboard",
 
         category: "motherboard", 
@@ -133,7 +133,7 @@ const products = [
     { 
         id: 10, 
         name: "MSI MAG B650 Tomahawk WiFi", 
-        img: "assets/images/10.jpg",
+        img: "../assets/images/10.jpg",
         item: "Motherboard",
 
         category: "motherboard", 
@@ -148,7 +148,7 @@ const products = [
     { 
         id: 11, 
         name: "Samsung 990 PRO 2TB NVMe M.2", 
-        img: "assets/images/11.jpg",
+        img: "../assets/images/11.jpg",
         item: "SSD",
 
         category: "ssd", 
@@ -161,7 +161,7 @@ const products = [
     { 
         id: 12, 
         name: "WD Black SN850X 1TB NVMe M.2", 
-        img: "assets/images/12.jpg",
+        img: "../assets/images/12.jpg",
         item: "SSD",
 
         category: "ssd", 
@@ -175,7 +175,7 @@ const products = [
     { 
         id: 13, 
         name: "Noctua NH-D15 chromax.black", 
-        img: "assets/images/13.jpg",
+        img: "../assets/images/13.jpg",
         item: "CPU Cooler",
 
         category: "cpu-cooler", 
@@ -188,7 +188,7 @@ const products = [
     { 
         id: 14, 
         name: "Corsair iCUE H150i Elite LCD XT", 
-        img: "assets/images/14.jpg",
+        img: "../assets/images/14.jpg",
         item: "CPU Cooler",
 
         category: "cpu-cooler", 
@@ -203,7 +203,7 @@ const products = [
     { 
         id: 15, 
         name: "Lian Li O11 Dynamic EVO", 
-        img: "assets/images/15.jpg",
+        img: "../assets/images/15.jpg",
         item: "Case",
 
         category: "case", 
@@ -216,7 +216,7 @@ const products = [
     { 
         id: 16, 
         name: "Corsair 4000D Airflow Black", 
-        img: "assets/images/16.jpg",
+        img: "../assets/images/16.jpg",
         item: "Case",
 
         category: "case", 
@@ -235,7 +235,7 @@ const products = [
     { 
         id: 17, 
         name: "Logitech G Pro X Superlight 2", 
-        img: "assets/images/17.jpg",
+        img: "../assets/images/17.jpg",
         item: "Gaming Mouse",
 
         category: "gaming-mice", 
@@ -248,7 +248,7 @@ const products = [
     { 
         id: 18, 
         name: "Razer DeathAdder V3 Pro", 
-        img: "assets/images/18.jpg",
+        img: "../assets/images/18.jpg",
         item: "Gaming Mouse",
 
         category: "gaming-mice", 
@@ -263,7 +263,7 @@ const products = [
     { 
         id: 19, 
         name: "Wooting 60HE", 
-        img: "assets/images/19.jpg",
+        img: "../assets/images/19.jpg",
         item: "Mechanical Keyboard",
 
         category: "mechanical-keyboards", 
@@ -276,7 +276,7 @@ const products = [
     { 
         id: 20, 
         name: "ASUS ROG Azoth Wireless", 
-        img: "assets/images/20.jpg",
+        img: "../assets/images/20.jpg",
         item: "Mechanical Keyboard",
 
         category: "mechanical-keyboards", 
@@ -291,7 +291,7 @@ const products = [
     { 
         id: 21, 
         name: "HyperX Cloud III Wireless", 
-        img: "assets/images/21.jpg",
+        img: "../assets/images/21.jpg",
         item: "Headset",
 
         category: "gaming-headsets", 
@@ -304,7 +304,7 @@ const products = [
     { 
         id: 22, 
         name: "SteelSeries Arctis Nova Pro Wireless", 
-        img: "assets/images/22.jpg",
+        img: "../assets/images/22.jpg",
         item: "Headset",
 
         category: "gaming-headsets", 
@@ -319,7 +319,7 @@ const products = [
     { 
         id: 23, 
         name: "ASUS ROG Swift OLED PG27AQDM", 
-        img: "assets/images/23.jpg",
+        img: "../assets/images/23.jpg",
         item: "Monitor",
 
         category: "monitors", 
@@ -332,7 +332,7 @@ const products = [
     { 
         id: 24, 
         name: "BenQ ZOWIE XL2546K E-Sports", 
-        img: "assets/images/24.jpg",
+        img: "../assets/images/24.jpg",
         item: "Monitor",
 
         category: "monitors", 
