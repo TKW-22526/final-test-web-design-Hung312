@@ -8,22 +8,21 @@ final-test-web-design-Hung312/
     ├── .git/
     ├── assets/
         ├──images/
-        │    ├──1.jpg
-        │    ├──...
-        │    └──24.jpg
+        │   ├──1.jpg
+        │   ├──...
+        │   └──24.jpg
         ├──background.jpg
         ├──logo.jpg
         └── thesis/
-    │       └── template_thesis.dotx
-    ├── css/
+             └── template_thesis.dotx
     ├── html/
-        ├──chi-tiet.html
-        ├──gioi-thieu.html
-        ├──lien-he.html
-        └──san-pham.html
+         ├──chi-tiet.html
+         ├──gioi-thieu.html
+         ├──lien-he.html
+         └──san-pham.html
     ├── js/
-        ├──data.js
-        └──script.js
+         ├──data.js
+         └──script.js
     ├── index.html
     └── README.md
 ```
