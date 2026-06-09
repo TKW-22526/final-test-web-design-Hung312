@@ -149,7 +149,7 @@ function renderProductDetail() {
         detailContainer.innerHTML = `
             <div class="alert alert-danger text-center">
                 <h4>Không tìm thấy sản phẩm!</h4>
-                <a href="index.html" class="btn btn-secondary mt-3">Về trang chủ</a>
+                <a href="san-pham.html" class="btn btn-secondary mt-3">Về trang sản phẩm</a>
             </div>
         `;
     }
