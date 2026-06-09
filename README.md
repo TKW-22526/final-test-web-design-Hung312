@@ -5,26 +5,26 @@
 ## 1. Cấu trúc thư mục dự án
 ```text
 final-test-web-design-Hung312/
-    ├── .git/
-    ├── assets/
-        ├──images/
-        │   ├──1.jpg
-        │   ├──...
-        │   └──24.jpg
-        ├──background.jpg
-        ├──logo.jpg
-        └── thesis/
-             └── template_thesis.dotx
-    ├── html/
-         ├──chi-tiet.html
-         ├──gioi-thieu.html
-         ├──lien-he.html
-         └──san-pham.html
-    ├── js/
-         ├──data.js
-         └──script.js
-    ├── index.html
-    └── README.md
+├── .git/
+├── assets/
+│    ├──images/
+│    │   ├──1.jpg
+│    │   ├──...
+│    │   └──24.jpg
+│    ├──background.jpg
+│    ├──logo.jpg
+│    └── thesis/
+│         └── template_thesis.dotx
+├── html/
+│     ├──chi-tiet.html
+│     ├──gioi-thieu.html
+│     ├──lien-he.html
+│     └──san-pham.html
+├── js/
+│     ├──data.js
+│     └──script.js
+├── index.html
+└── README.md
 ```
 
 ## 2. Mô tả các thư mục và tập tin
